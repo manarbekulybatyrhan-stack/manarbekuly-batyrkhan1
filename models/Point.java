@@ -5,13 +5,13 @@ public class Point {
     private double x;
     private double y;
 
-    // constructor just saves x and y
+
     public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    // calculate distance from this point to other point
+
     public double distance(Point other) {
         double dx = other.x - x;
         double dy = other.y - y;

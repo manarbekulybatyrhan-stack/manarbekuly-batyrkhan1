@@ -20,7 +20,6 @@ public class Shape {
             perimeter += points.get(i).distance(points.get(i + 1));
         }
 
-        // close shape (last with first)
         perimeter += points.get(n - 1).distance(points.get(0));
 
         return perimeter;
